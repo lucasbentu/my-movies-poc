@@ -1,9 +1,9 @@
-import { MovieItem } from "./MovieItemm";
+import { MovieItem } from "./MovieItem";
 
 export const MoviesList = ({ movies }) => (
   <section>
     <ul>
-      {movies.map(m => <MovieItem title={m.title} />)}
+      {movies.map(m => <MovieItem key={m.id} title={m.title} />)}
     </ul>
   </section>
 )
