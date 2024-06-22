@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const MoviesContainer = styled.section`
+export const AboutContainer = styled.section`
   padding: 2rem;
   margin: 0px 6rem;
   background: #cecece;
